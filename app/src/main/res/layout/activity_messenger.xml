@@ -7,4 +7,11 @@
     android:orientation="vertical"
     tools:context="love.com.studyaidldemo.messager.MessengerActivity">
 
+    <TextView
+        android:id="@+id/sendToServer"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:gravity="center"
+        android:text="发送消息到服务端" />
+
 </LinearLayout>

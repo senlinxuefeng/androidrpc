@@ -19,9 +19,11 @@
 
         <service
             android:name=".messager.MessengerService"
+            android:exported="true"
             android:process=":Messenger" />
         <service
             android:name=".aidl.RemoteAidlService"
+            android:exported="true"
             android:process=":RemoteAidl" />
 
         <activity android:name=".aidl.AidlActivity" />
