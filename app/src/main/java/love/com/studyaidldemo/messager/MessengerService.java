@@ -41,6 +41,8 @@ public class MessengerService extends Service {
                         messengerList = new ArrayList<>();
                     }
                     messengerList.add(msg.replyTo);
+
+                    //下面是被动的回复客户端机制
                     final List<Messenger> finalMessengerList = messengerList;
                     postDelayed(new Runnable() {
                         @Override

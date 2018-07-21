@@ -11,8 +11,6 @@ import android.support.annotation.Nullable;
 
 public class RemoteAidlService extends Service {
 
-
-
     @Override
     public void onCreate() {
         super.onCreate();
@@ -22,6 +20,7 @@ public class RemoteAidlService extends Service {
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
+
         return null;
     }
 }
